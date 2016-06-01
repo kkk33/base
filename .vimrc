@@ -215,6 +215,10 @@ let g:tagbar_type_go = {
 "youcompleteme
 let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<c-p>', '<Up>']
+" 关闭加载.ycm_extra_conf.py确认
+let g:ycm_confirm_extra_conf=0
+" 设置全局.ycm_extra_conf.py
+let g:ycm_global_ycm_extra_conf = "~/.vim/tmp/.ycm_extra_conf.py"
 
 nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gd :YcmCompleter GoToDefinition<CR>
