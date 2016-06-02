@@ -57,8 +57,31 @@ flags = [
     '.', 
     '-isystem', 
     '/usr/include/', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-src/php-5.6.22/ext/php-kg-hook', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-src/php-5.6.22/ext/php-kg-hook/include', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-src/php-5.6.22/ext/php-kg-hook', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-env/include/php', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-env/include/php/main', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-env/include/php/TSRM', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-env/include/php/Zend', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-env/include/php/ext', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-env/include/php/ext/date/lib', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-src/php-5.6.22/ext/php-kg-hook/../../sapi/fpm/fpm', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-src/php-5.6.22/ext/php-kg-hook/common', 
+    '-I',
+    '/home/k/workstation/c/php-probe/php-src/php-5.6.22/ext/php-kg-hook/msgpack-c/include', 
 ]
-
 
 # Set this to the absolute path to the folder (NOT the file!) containing the
 # compile_commands.json file to use that instead of 'flags'. See here for
