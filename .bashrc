@@ -24,6 +24,7 @@ export VPS=163.44.152.219
 
 alias ycmconfig="cp ~/.vim/tmp/.ycm_extra_conf.py ./"
 alias php_extension_env="~/.myscript/php-extension-env.sh"
+alias openresty_env="~/.myscript/openresty-env.sh"
 
 export ScriptModulePath=~/.myscript/module
 export ScriptPath=~/.myscript/path.sh
@@ -32,7 +33,7 @@ source $ScriptPath
 function AddToPath()
 {
     new_path=""
-    if [ -z $1]
+    if [ -z $1 ];
     then
         new_path=$("pwd")
     else
