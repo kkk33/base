@@ -18,8 +18,8 @@ mkdir $backup_dir -pv
 
 echo "backup"
 echo "~ =======> $backup_dir"
-binaryOperation "mv" ~ $backup_dir $backup_list
-binaryOperation "mv" ~ $backup_dir $backup_list_dir
+binaryOperation "cp" ~ $backup_dir $backup_list
+binaryOperation "cp" ~ $backup_dir $backup_list_dir
 cp recovery.sh $backup_dir/
 
 echo "install"
