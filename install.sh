@@ -12,7 +12,7 @@ function binaryOperation()
     shift
     shift
     shift
-    for v in "$4";do
+    for v in $@;do
         echo "$cmd $src/$v $dst/$v"
         $cmd $src/$v $dst/$v
     done
