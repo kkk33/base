@@ -97,6 +97,7 @@ Plugin 'fholgado/minibufexpl.vim'
 " Plugin 'Lokaltog/vim-easymotion'
 " Plugin 'suan/vim-instant-markdown'
 " Plugin 'lilydjwg/fcitx.vim'
+Plugin 'xolox/vim-lua-ftplugin'
 " 插件列表结束
 call vundle#end()
 filetype plugin indent on

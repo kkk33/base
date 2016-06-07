@@ -17,9 +17,6 @@ export LC_CTYPE=en_US.UTF-8
 #export GOROOT=/usr/share/go
 #export GOPATH=~/workstation/go
 export VPS=163.44.152.219
-#export MYSQL=$GOPATH/src/kugou.com/mysql/kgproxy
-#export PATH=$PATH:~/.vim/gotools
-#export PATH=$PATH:$GOPATH/bin
 #export probe=~/workstation/c/php-probe
 
 alias ycmconfig="cp ~/.vim/tmp/.ycm_extra_conf.py ./"
