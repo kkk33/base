@@ -34,3 +34,5 @@ echo "install"
 echo "$root ======> ~"
 binaryOperation "cp" $root ~ $backup_list
 binaryOperation "cp -R" $root ~ $backup_list_dir
+
+source ~/.bashrc
