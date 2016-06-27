@@ -11,7 +11,7 @@ mkdir $env -pv
 srcfile=php-5.6.22.tar.xz
 srcpath=$src/$srcfile
 
-if [ ! -f $srcpath]; then
+if [ ! -f $srcpath ]; then
 wget $php_src -O $srcpath
 fi
 
