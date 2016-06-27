@@ -21,4 +21,5 @@ cd php-5.6.22
 ./configure --enable-debug --enable-fpm --with-mysql --prefix="$env"
 make && make install
 
-
+cp php.ini-production $env/lib/php.ini
+cp sapi/fpm/php-fpm.conf $env/ect/php-fpm.conf 
