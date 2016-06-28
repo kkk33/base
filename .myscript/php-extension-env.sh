@@ -1,5 +1,6 @@
 #!/bin/sh
-
+# depence: wget libxml2 libunistring
+#
 php_src='http://cn2.php.net/get/php-5.6.22.tar.xz/from/this/mirror'
 root=$("pwd")
 
@@ -19,7 +20,7 @@ cd $src
 tar -vxf $srcfile
 cd php-5.6.22
 ./configure --enable-debug --enable-fpm --with-mysql --prefix="$env"
-make && make install
+make install || return -1
 
 cp php.ini-production $env/lib/php.ini
-cp sapi/fpm/php-fpm.conf $env/ect/php-fpm.conf 
+cp $env/etc/php-fpm.conf{.default,}
