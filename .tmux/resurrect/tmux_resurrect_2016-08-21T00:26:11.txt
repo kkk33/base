@@ -1,0 +1,10 @@
+pane	tmp	1	:dash	0	:#-	1	:/	0	top	:top
+pane	tmp	1	:dash	0	:#-	2	:/home/k/.tmux	0	bash	:
+pane	tmp	1	:dash	0	:#-	3	:/home/k/.tmux	0	bash	:
+pane	tmp	1	:dash	0	:#-	4	:/	1	python2	:/usr/bin/python2 /usr/bin/musicbox
+pane	tmp	2	:bash	0	:	1	:/tmp	1	bash	:
+pane	tmp	3	:vim	1	:*	1	:/	1	vim	:vim /home/k/.tmux.conf
+window	tmp	1	0	:#-	c353,190x49,0,0{95x49,0,0,0,94x49,96,0[94x14,96,0,3,94x9,96,15,5,94x24,96,25,4]}
+window	tmp	2	0	:	d0bf,190x49,0,0,2
+window	tmp	3	1	:*	d0c3,190x49,0,0,6
+state	tmp	
