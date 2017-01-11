@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export GOROOT=/usr/share/go
 export GOPATH=~/workstation/go

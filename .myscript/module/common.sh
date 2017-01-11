@@ -5,7 +5,7 @@ function C()
 cmd=$1
 
 $cmd
-if ( $cmd != 0 ) ; then
+if (( $? != 0 )) ; then
 echo "[error]$cmd"
 exit 
 fi

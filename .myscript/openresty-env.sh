@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 source=https://openresty.org/download/ngx_openresty-1.9.7.2.tar.gz
 

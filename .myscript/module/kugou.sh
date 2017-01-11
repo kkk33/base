@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export relay="kliang@relay.kugou.net"
 alias kscp="scp -P32200 "

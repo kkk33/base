@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # depence: wget libxml2 libunistring
 #
 php_src='http://cn2.php.net/get/php-5.6.22.tar.xz/from/this/mirror'

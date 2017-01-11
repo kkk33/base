@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 backup_dir=/tmp/base_backup
 backup_list=".vimrc .vim .myscript .bashrc"

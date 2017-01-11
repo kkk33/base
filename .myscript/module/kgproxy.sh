@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 source $ScriptModulePath/go.sh
 export kgproxy=$GOPATH/src/kugou.com/mysql/kgproxy
