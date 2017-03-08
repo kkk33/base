@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-powerline"]
 	path = .vim/bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".tmux/tmux-continuum"]
+	path = .tmux/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
