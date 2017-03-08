@@ -1,0 +1,30 @@
+[submodule ".vim/bundle/delimitMate"]
+	path = .vim/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule ".vim/bundle/minibufexpl.vim"]
+	path = .vim/bundle/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule ".vim/bundle/molokai"]
+	path = .vim/bundle/molokai
+	url = https://github.com/tomasr/molokai.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule ".vim/bundle/vim-go"]
+	path = .vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule ".vim/bundle/vim-indent-guides"]
+	path = .vim/bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule ".vim/bundle/vim-lua-ftplugin"]
+	path = .vim/bundle/vim-lua-ftplugin
+	url = https://github.com/xolox/vim-lua-ftplugin.git
+[submodule ".vim/bundle/vim-misc"]
+	path = .vim/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule ".vim/bundle/vim-powerline"]
+	path = .vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
