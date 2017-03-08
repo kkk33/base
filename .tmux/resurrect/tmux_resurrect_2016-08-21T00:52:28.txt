@@ -1,9 +1,0 @@
-pane	dash	1	:dash	0	:#-	1	:/	1	top	:top
-pane	dash	1	:dash	0	:#-	2	:/home/k/.tmux	0	bash	:
-pane	dash	1	:dash	0	:#-	3	:/home/k/.tmux	0	bash	:
-pane	dash	1	:dash	0	:#-	4	:/	0	python2	:/usr/bin/python2 /usr/bin/musicbox
-pane	dash	2	:bash	1	:*	1	:/	0	vim	:vim /home/k/.tmux.conf
-pane	dash	2	:bash	1	:*	2	:/	1	bash	:
-window	dash	1	0	:#-	c353,190x49,0,0{95x49,0,0,0,94x49,96,0[94x14,96,0,3,94x9,96,15,5,94x24,96,25,4]}
-window	dash	2	1	:*	8fc3,190x49,0,0{95x49,0,0,24,94x49,96,0,25}
-state	dash	
