@@ -41,6 +41,9 @@ set nowrap
 set foldmethod=syntax
 " 启动 vim 时关闭折叠代码
 set nofoldenable
+
+set ff=unix
+set encoding=utf-8
 "===========================================================
 " 按键
 let mapleader=";"
@@ -54,6 +57,14 @@ inoremap <Leader><Tab> <Tab>
 nnoremap <Leader>wq :q<CR> 
 vnoremap <Leader>wq :q<CR> 
 onoremap <Leader>wq :q<CR> 
+" 游走panel
+nnoremap <Leader><Leader>j  <C-W>j> 
+nnoremap <Leader><Leader>k  <C-W>k> 
+nnoremap <Leader><Leader>h  <C-W>h> 
+nnoremap <Leader><Leader>l  <C-W>l> 
+
+
+nnoremap <F7>   <Esc>:w<CR> :make<CR> :cw<CR>
 
 "===========================================================
 " color theme
@@ -68,8 +79,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 " vundle 管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
 call vundle#begin()
 " go插件
-Plugin 'fatih/vim-go'
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'fatih/vim-go'
+Plugin 'Raimondi/delimitMate'
 " Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
 " Plugin 'vim-scripts/phd'
@@ -97,6 +109,7 @@ Plugin 'fholgado/minibufexpl.vim'
 " Plugin 'Lokaltog/vim-easymotion'
 " Plugin 'suan/vim-instant-markdown'
 " Plugin 'lilydjwg/fcitx.vim'
+Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-lua-ftplugin'
 " 插件列表结束
 call vundle#end()
